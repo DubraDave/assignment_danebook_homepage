@@ -1,0 +1,36 @@
+.navbar{
+	background-color: #2B78E4;
+	
+	.navbar-brand{
+		font-size: 35px;
+		color: white;
+		line-height: 50px;
+		font-weight: bold;
+	}
+
+	label{
+		color: white;		
+	}
+
+	.btn {
+		background-color: #9282ff;
+	}
+}
+
+.jumbotron{
+	background-color: transparent;
+	padding: 80px;
+}
+
+.sign-up-form {
+	padding: 10px;
+}
+
+.top-form {
+	padding-top: 0px;
+}
+
+footer {
+  background-color: #E6E6E6;
+  height: 15px;
+}

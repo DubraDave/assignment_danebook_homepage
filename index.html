@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" class="style">
+</head>
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">DubraDaveBook</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <form class="navbar-form navbar-right">
+          <div class="form-group">
+            <label for="email">Email</label><br>
+            <input type="text" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label><br>
+            <input type="password" class="form-control" id="password">
+          </div>
+          <div class="form-group">
+            <label for="no-label">&nbsp;</label><br>
+            <button type="submit" class="btn btn-success" id="no-label">Log in</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <div class="row">
+      <!-- jumbotron on the left -->
+      <div class="col-sm-6 col-sm-offset-0 jumbotron"> 
+        <div class="container">
+          <h2>Connect with all your friends!</h2>
+          <ul>
+            <li><h5><b>See photos and updates </b> in your news feed</h5></li>
+            <li><h5><b>Post your status for the world to see </b> from your profile<h5></li>
+            <li><h5><b>Get in touch with your friends </b> by "friending" them<h5></li>
+            <li><h5><b>Like things </b> because you are a positive person<h5></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Sign up form on the right -->
+      <div class="col-sm-5 col-sm-offset-0 test sign-up">
+        <div class="row sign-up-form">
+          <div class="col-sm-12">
+            <h2>Sign Up</h2>
+          </div>
+        </div>
+        <div class="row sign-up-form top-form">
+          <div class="col-sm-6">
+            <input type="text" class="form-control" placeholder="First Name">
+          </div>
+          <div class="col-sm-6">
+            <input type="text" class="form-control" placeholder="Last Name">
+          </div>
+        </div>
+        <div class="row sign-up-form">
+          <div class="col-sm-12">
+            <input type="text" class="form-control" placeholder="Email">
+          </div>
+        </div>
+        <div class="row sign-up-form">
+          <div class="col-sm-12">
+            <input type="text" class="form-control" placeholder="Password">
+          </div>
+        </div>
+        <div class="row sign-up-form">
+          <div class="col-sm-12">
+            <input type="text" class="form-control" placeholder="Please Confirm Your Password">
+          </div>
+        </div>
+        <div class="row sign-up-form">
+          <div class="col-sm-12">
+            <h5>Birthday</h5>
+              <div class="btn-group">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Month
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#">January</a></li>
+                  <li><a href="#">February</a></li>
+                  <li><a href="#">March</a></li>
+                  <li><a href="#">April</a></li>
+                  <li><a href="#">May</a></li>
+                  <li><a href="#">June</a></li>
+                  <li><a href="#">July</a></li>
+                  <li><a href="#">August</a></li>
+                  <li><a href="#">September</a></li>
+                  <li><a href="#">October</a></li>
+                  <li><a href="#">November</a></li>
+                  <li><a href="#">December</a></li>
+                </ul>
+              </div> 
+
+              <div class="btn-group">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Day
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                </ul>
+              </div> 
+
+              <div class="btn-group">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Year
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                  <li><a href="#">2000</a></li>
+                  <li><a href="#">2001</a></li>
+                  <li><a href="#">2002</a></li>
+                  <li><a href="#">2003</a></li>
+                  <li><a href="#">2004</a></li>
+                </ul>
+              </div> 
+          </div>
+        </div>
+        <div class="row sign-up-form">
+          <div class="col-sm-12">
+            <h5>Gender</h5>
+            <label class="radio-inline">
+              <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Male
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Female
+            </label>
+          </div>
+        </div>
+        <div class="row sign-up-form">
+          <div class="col-sm-12">
+            <button type="button" class="btn btn-success btn-block">Sign Up!</button>
+          </div>
+        </div>
+      </div><!--Sign up for right end-->
+    </div><!--Row class end-->
+  </div><!--Container end-->
+
+  <!-- Gray bar on bottom of page -->
+  <footer class = "container-fluid foot">
+    <div class = "row">
+      <div class = "col-sm-12 "> </div>
+    </div>
+  </footer>
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
